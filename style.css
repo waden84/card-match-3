@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(145, 220, 169);
+}
+
+.card {
+    height: 270px;
+    width: 200px;
+    position: absolute;
+}
+
+.back, .front, .celebration_outer {
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.up, .down {
+    margin: auto;
+    height: inherit;
+    transition: width .65s;
+}
+
+.up {
+    width: 100%;
+}
+
+.down {
+    width: 0%;
+}
+
+.card_img {
+    height: 100%;
+    width: 100%;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.celebration_img {
+    height: 100%;
+    width: 100%;
+    border: 2px solid; 
+    border-radius: 10px;
+}
+
+.celebration_card {
+    height: 270px;
+    width: 200px;
+    position: absolute;
+    top: 1000px;
+    left: 400px;
+}
+
+.celebration_inner {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.pokeball_icon {
+    height: 30px; 
+    width: 30px;
+}
+
+h1 {
+    text-shadow: 3px 2px 2px red;
+    font-family: cursive;
+    font-size: 50px;
+    margin-left: 30px;
+    margin-bottom: 0;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+h2 {
+    text-shadow: 3px 3px 2px white;
+    margin-left: 30px;
+    font-family: monospace;
+    font-size: 25px;
+    color: red; 
+}
+
+.buttons, .score {
+    box-shadow: 3px 4px 4px black;
+    margin-left: 30px;
+    border: solid black 2px;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+#reset {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 25px;
+}
+
+.score {
+    font-size: 40px;
+    height: 60px;
+    top: 10px;
+    background-color: white;
+    padding-left: 25px;
+    padding-top: 5px;
+    position: absolute;
+}
+
+#human_score {
+    left: 170px;
+    width: 250px;
+}
+
+#computer_score {
+    left: 580px;
+    width: 330px;
+}
+
+.pokeball_icon2 {
+    height: 70px; 
+    width: 70px;
+    position: absolute;
+    top: 10px;
+}
